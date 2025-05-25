@@ -1,18 +1,16 @@
 <h1>Visão do Produto</h1>
 
-<h2>Sistema de Controle de Garantias de Produtos (SCGP)</h2>
+<h2>Sistema Shalom+</h2>
 
-<small>Versão 1.2</small>
+<small>Versão 1.0</small>
 
 ---
 
 ## Histórico de revisões
 
-|    Data    | Versão |           Descrição           |      Autor       |
+|    Data    | Versão |           Descrição           |      Autores       |
 | :--------: | :----: | :---------------------------: | :--------------: |
-| 28/03/2023 |  1.0   |     Criação do documento      | Maxwell Anderson |
-| 30/03/2023 |  1.1   | Adicionadas novas informações | Maxwell Anderson |
-| 01/04/2023 |  1.2   | Realizada revisão de conteúdo | Maxwell Anderson |
+| 26/05/2025 |  1.0   |     Criação do documento      | Laila de Aquino, Letícia Lopes, Luan Pimenta e Suetone Carneiro |
 
 ---
 
@@ -46,11 +44,11 @@ O Documento de Visão do Produto (DVP) é um documento que descreve o produto de
 
 ## Propósito
 
-O objetivo deste documento é coletar, analisar e definir características e as necessidades de alto nível do **Sistema de Controle de Garantias de Produtos (SCGP).**
+O objetivo deste documento é coletar, analisar e definir características e as necessidades de alto nível do **Sistema Shalom+.**
 
 Ele se concentra nos recursos necessários aos stakeholders e aos usuários, e nas razões que levam a essas necessidades.
 
-Os detalhes de como o **Sistema de Controle de Garantias de Produtos (SCGP)** atingem essas necessidades são descritos nas _especificações de casos de uso_ e nos _requisitos funcionais_.
+Os detalhes de como o **Sistema Shalom+** atingem essas necessidades são descritos nas _especificações de casos de uso_ e nos _requisitos funcionais_.
 
 ## Definições e abreviações
 
@@ -59,10 +57,8 @@ Os detalhes de como o **Sistema de Controle de Garantias de Produtos (SCGP)** at
 | Termo | Definição                                    |
 | :---: | -------------------------------------------- |
 |  DVP  | Documento de Visão do Produto                |
-| NFCe  | Nota Fiscal de Consumidor Eletrônica         |
-|  NFe  | Nota Fiscal Eletrônica                       |
-| NFSe  | Nota Fiscal de Serviços Eletrônica           |
-| SCGP  | Sistema de Controle de Garantias de Produtos |
+|  CRP  | Conselho Regional de Psicologia      |
+|  CRM  | Conselho Regional de Medicina      |
 |  SRS  | Especificação de Requisitos de Software      |
 |  UML  | Linguagem de Modelagem Unificada             |
 
@@ -71,41 +67,40 @@ Os detalhes de como o **Sistema de Controle de Garantias de Produtos (SCGP)** at
 |    Termo    | Definição                                                                                                                       |
 | :---------: | ------------------------------------------------------------------------------------------------------------------------------- |
 |   Cliente   | É uma pessoa física ou jurídica que compra um produto ou contrata um serviço.                                                   |
-| Consumidor  | É uma pessoa física que compra um produto ou contrata um serviço.                                                               |
-|   Empresa   | É uma pessoa jurídica que compra um produto ou contrata um serviço.                                                             |
-| Fornecedor  | É uma pessoa física ou jurídica que vende um produto ou presta um serviço.                                                      |
-|  Garantia   | É um contrato entre o fabricante e o consumidor, que garante que o produto será reparado ou substituído caso apresente defeito. |
-| Nota Fiscal | É um documento fiscal que atesta a compra de um produto ou serviço.                                                             |
-|   Produto   | É um bem ou serviço que é vendido ou prestado.                                                                                  |
-|   Serviço   | É um bem intangível que é prestado.                                                                                             |
+| Usuário  | É uma pessoa física que interage com o sistema.                                                               |
+|   Aluno   |   É uma pessoa física, menor de idade, que frequenta a escola   |
+|   Responsável   |   É uma pessoa física, maior de idade, legalmente reconhecido como responsável por um aluno  |
+|   Psicólogo   |   É um profissional da saúde com CRP ativo que atua na escola   |
+|   Secretário   |    É um profissional que atua na escola em afazeres administrativos  |
+
 
 ## Escopo do produto
 
-O **Sistema de Controle de Garantias de Produtos (SCGP)** é um sistema que tem como objetivo auxiliar o cliente a controlar as garantias de seus produtos. Será utilizado por clientes que compram produtos com garantia e necessitam que sejam informados quando o prazo de garantia estiver próximo de expirar.
-
+O **Sistema Shalom+** é um sistema que tem como objetivo facilitar o gerenciamento de consultas com psicólogos na escola social Shalom, proporcionando o armazenamento de informações e prontuários, bem como a realização do agendamento dessas consultas. Será utilizado por alunos (e responsáveis), secretários e psicólgos que fazem parte da escola e necessitam interagir com serviços de atendimento psicológico e serem informados em caso de alterações nas consultas agendadas.
 ---
 
 # Posicionamento
 
 ## Oportunidade de negócios
 
-O **Sistema de Controle de Garantias de Produtos (SCGP)** apresenta várias oportunidades de negócios, tais como:
+O **Sistema Shalom+** apresenta várias oportunidades de negócios, tais como:
 
-1. **Serviço de assinatura**: ofereça aos clientes um serviço de assinatura, onde eles possam pagar uma taxa mensal para ter acesso ao SCGP. Isso pode ser atraente para clientes que possuem muitos produtos com garantia e desejam um serviço de controle automatizado.
-2. **Venda de publicidade**: ao reunir informações sobre os produtos dos clientes, o SCGP pode ser um ótimo veículo para publicidade segmentada. Você pode vender espaço publicitário para empresas que vendem produtos relacionados aos que os clientes já possuem.
-3. **Venda de informações**: o SCGP coleta informações valiosas sobre os produtos que os clientes possuem, como a data de compra e o prazo de garantia. Essas informações podem ser vendidas a empresas que desejam conhecer melhor seus clientes e seus hábitos de compra.
-4. **Parcerias com varejistas**: o SCGP pode oferecer aos varejistas uma forma de se comunicar com os clientes após a venda. Os varejistas podem oferecer descontos ou promoções exclusivas para clientes que estejam usando o SCGP para controlar suas garantias.
-5. **Expansão para outros mercados**: o SCGP pode ser expandido para atender a outros mercados, como o de serviços automotivos ou de eletrônicos. Isso pode ser feito através de parcerias com fabricantes de automóveis ou empresas de eletrônicos, oferecendo um serviço semelhante ao SCGP para seus clientes
+1. **Expansão para outras instituições educacionais**: após a implementação bem sucedida na Escola Social Shalom, o sistema pode ser fornecido a outras escolas, institutos ou redes de ensino que oferecem suporte psicológico.
+2. **Ampliação para outros projetos Sociais**: o sistema pode ser utilizado em outros programas sociais que necessitem de algum tipo de agendamento, como clínicas comunitárias.
+3. **Geração de receita via licenciamento SaaS**: transformar o Shalom+ em uma plataforma SaaS (Software as a Service), com planos mensais ou anuais.
+4. **Ampliação para clínicas e consultórios particulares**: adaptação do Shalom+ para uso por psicólogos autônomos ou clínicas, com agendamento online, lembretes automáticos e prontuários eletrônicos.
+5. **Oferecimento de espaço para marcas apoiadoras**: a Shalom é uma escola social e precisa de apoio de pessoas e empresas. É possível implantar no sistema um espaço onde apareçam as empresas e pessoas apoiadoras.
 
 ## Descrição dos benefícios para os clientes e dos problemas resolvidos
 
 | Benefícios                    | Problemas Resolvidos                                                    | Afetados                                   |
 | ----------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ |
-| Facilidade de gerenciamento   | Dificuldade em gerenciar múltiplas garantias de produtos                | Clientes que compram produtos com garantia |
-| Alertas personalizados        | Falta de notificação antes do vencimento da garantia                    | Clientes que compram produtos com garantia |
-| Melhor experiência do cliente | Insegurança em relação à garantia de produtos                           | Clientes que compram produtos com garantia |
-| Redução do tempo de espera    | Dificuldade em encontrar informações de contato para acionar a garantia | Clientes que precisam acionar a garantia   |
-| Economia de dinheiro          | Despesas desnecessárias com produtos ainda cobertos pela garantia       | Clientes que compram produtos com garantia |
+| Agendamento online simples e acessível   | Dificuldade para marcar consultas com psicólogos                | Alunos e responsáveis |
+| Prontuário eletrônico com registro contínuo       | Falta de acompanhamento estruturado do histórico de atendimentos                    | Alunos, responsáveis e psicólogos |
+| Armazenamento seguro e controle de acesso às informações | Exposição de informações sensíveis e falta de privacidade                           | Alunos e responsáveis |
+| Agenda automatizada e controle de disponibilidade    | Agendas sobrecarregadas ou desorganizadas | Psicólogos e secretários  |
+| Redução da carga de trabalho com agendamentos e registros manuais          |    Sobrecarga de tarefas administrativas repetitivas    | Psicólogos e secretários |
+| Notificações sobre alterações nas consultas agendadas | Desagendamento/Remarcação de consultas sem possibilidade de comunicação rápida | Alunos, responsáveis, psicólogos e secretários |
 
 ---
 
