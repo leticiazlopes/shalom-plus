@@ -77,6 +77,7 @@ Os detalhes de como o **Sistema Shalom+** atingem essas necessidades são descri
 ## Escopo do produto
 
 O **Sistema Shalom+** é um sistema que tem como objetivo facilitar o gerenciamento de consultas com psicólogos na escola social Shalom, proporcionando o armazenamento de informações e prontuários, bem como a realização do agendamento dessas consultas. Será utilizado por alunos (e responsáveis), secretários e psicólgos que fazem parte da escola e necessitam interagir com serviços de atendimento psicológico e serem informados em caso de alterações nas consultas agendadas.
+
 ---
 
 # Posicionamento
