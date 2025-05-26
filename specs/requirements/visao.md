@@ -102,10 +102,10 @@ O **Sistema Shalom+** apresenta várias oportunidades de negócios, tais como:
 | ----------------------------- | ----------------------------------------------------------------------- | ------------------------------------------ |
 | Agendamento online simples e acessível   | Dificuldade para marcar consultas com psicólogos                | Alunos e responsáveis |
 | Prontuário eletrônico com registro contínuo       | Falta de acompanhamento estruturado do histórico de atendimentos                    | Alunos, responsáveis e psicólogos |
-| Armazenamento seguro e controle de acesso às informações | Exposição de informações sensíveis e falta de privacidade                           | Alunos e responsáveis |
+| Armazenamento seguro e controle de acesso às informações | Exposição de informações sensíveis e falta de privacidade                           | Alunos, responsáveis e psicólogos |
 | Agenda automatizada e controle de disponibilidade    | Agendas sobrecarregadas ou desorganizadas | Psicólogos e secretários  |
 | Redução da carga de trabalho com agendamentos e registros manuais          |    Sobrecarga de tarefas administrativas repetitivas    | Psicólogos e secretários |
-| Notificações sobre alterações nas consultas agendadas | Desagendamento/Remarcação de consultas sem possibilidade de comunicação rápida | Alunos, responsáveis, psicólogos e secretários |
+| Notificações sobre alterações nas consultas agendadas | Desagendamento de consultas sem possibilidade de comunicação rápida | Alunos, responsáveis, psicólogos e secretários |
 
 ---
 
