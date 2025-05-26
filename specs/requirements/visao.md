@@ -72,6 +72,8 @@ Os detalhes de como o **Sistema Shalom+** atingem essas necessidades são descri
 |   Responsável   |   É uma pessoa física, maior de idade, legalmente reconhecido como responsável por um aluno  |
 |   Psicólogo   |   É um profissional da saúde com CRP ativo que atua na escola   |
 |   Secretário   |    É um profissional que atua na escola em afazeres administrativos  |
+| Aliança terapêutica | É a relação de colaboração, confiança e vínculo estabelecida entre o psicólogo e o paciente, essencial para a efetividade do processo terapêutico. |
+| Laudo psicológico | É o documento técnico elaborado por um psicólogo, que apresenta a avaliação, diagnóstico e conclusões sobre o estado psicológico de um indivíduo. |
 
 
 ## Escopo do produto
