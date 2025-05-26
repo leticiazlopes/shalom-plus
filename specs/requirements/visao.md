@@ -183,7 +183,7 @@ Como o Shalom+ é um software, ele não exige hardware específico para sua oper
 
 A comunicação entre os dispositivos e o sistema ocorre por meio de conexões de rede, normalmente utilizando o protocolo HTTP. As requisições feitas pelos usuários são processadas pelo servidor, que responde com as informações correspondentes, viabilizando a interação com o sistema de forma dinâmica.
 
-![Visão Geral do Sistema Shalom+](diagrama.jpeg.jpg)
+![Visão Geral do Sistema Shalom+](diagrama.jpg)
 
 **Figura 1** - Arquitetura ambiental do sistema Shalom+
 
