@@ -61,6 +61,7 @@ Os detalhes de como o **Sistema Shalom+** atingem essas necessidades são descri
 |  CRM  | Conselho Regional de Medicina      |
 |  SRS  | Especificação de Requisitos de Software      |
 |  UML  | Linguagem de Modelagem Unificada             |
+|  SaaS  | Software as a Service             |
 
 ### Definições
 
@@ -74,6 +75,7 @@ Os detalhes de como o **Sistema Shalom+** atingem essas necessidades são descri
 |   Secretário   |    É um profissional que atua na escola em afazeres administrativos  |
 | Aliança terapêutica | É a relação de colaboração, confiança e vínculo estabelecida entre o psicólogo e o paciente, essencial para a efetividade do processo terapêutico. |
 | Laudo psicológico | É o documento técnico elaborado por um psicólogo, que apresenta a avaliação, diagnóstico e conclusões sobre o estado psicológico de um indivíduo. |
+| Software as a Service | É um modelo de distribuição de software em que o sistema é acessado pela internet, sem necessidade de instalação local, sendo pago geralmente por assinatura. |
 
 
 ## Escopo do produto
