@@ -179,9 +179,7 @@ A seguir, é apresentada uma tabela que descreve as necessidades dos clientes co
 
 O sistema Shalom+ é um sistema de agendamento de consultas psicológicas, desenvolvido para atender às necessidades da escola social Shalom+. O objetivo é facilitar o acesso dos usuários aos serviços oferecidos. Dessa maneira, o sistema permite que os clientes agendem consultas, consultem informações dos psicólogos disponíveis e entrem em contato com os profissionais de forma simples e eficiente.
 
-Como o Shalom+ é um software, ele não exige hardware específico para sua operação nos dispositivos dos usuários. A infraestrutura necessária inclui servidores, banco de dados e dispositivos de rede que suportem o tráfego de informações entre o servidor e os usuários finais.
-
-O sistema pode ser acessado por meio de dispositivos com navegador web e acesso à internet, como computadores, tablets e smartphones. Essa característica garante que os clientes possam utilizar o sistema de qualquer lugar e a qualquer momento. Além disso, informações essenciais, como os dados dos psicólogos, estarão disponíveis mesmo sem conexão à internet.
+Como o Shalom+ é um software, ele não exige hardware específico para sua operação nos dispositivos dos usuários, apenas um smarthphone ou computador com acesso a internet. Essa caracteristica garante que os clientes possam utilizar o sistema de qualquer lugar e a qualquer momento. Alem disso, informações essenciais, como os dados dos psicólogos, estarão disponíveis mesmo sem conexão à internet. A infraestrutura necessária sera implementada a partir dos servicos de nuvem para armazenar informações. 
 
 A comunicação entre os dispositivos e o sistema ocorre por meio de conexões de rede, normalmente utilizando o protocolo HTTP. As requisições feitas pelos usuários são processadas pelo servidor, que responde com as informações correspondentes, viabilizando a interação com o sistema de forma dinâmica.
 
