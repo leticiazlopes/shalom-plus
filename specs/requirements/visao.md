@@ -60,7 +60,7 @@ Os detalhes de como o **Sistema Shalom+** atingem essas necessidades são descri
 |  CRP  | Conselho Regional de Psicologia      |
 |  CRM  | Conselho Regional de Medicina      |
 |  SRS  | Especificação de Requisitos de Software      |
-|  UML  | Linguagem de Modelagem Unificada             |
+|  LGPD  | Lei Geral de Proteção de Dados             |
 |  SaaS  | Software as a Service             |
 
 ### Definições
