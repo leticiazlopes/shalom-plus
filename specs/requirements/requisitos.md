@@ -84,7 +84,26 @@ Os seguintes usuários foram identificados para o sistema:
 
 # Requisitos funcionais
 
-Os requisitos funcionais são descritos a seguir.
+Os requisitos funcionais são descritos a seguir, organizados por perfil de usuário:
+
+## Secretário
+
+- **[RNF000]** - ...
+
+## Aluno
+
+- **[RNF100]** - ...
+
+## Psicólogo
+
+- **[RNF200]** - ...
+
+## Admin do sistema
+
+- **[RNF300]** - ...
+
+
+
 
 - **[RF001]** - Como psicólogo, eu gostaria de cadastrar meus horários disponíveis no sistema, inserindo que horas inicio e que horas finalizo meus atendimentos na escola, para que os usuários comuns consigam visualizá-los facilmente.
 - **[RF002]** - Como responsável de um aluno, eu gostaria de agendar consultas psicológicas, para que eu possa garantir o atendimento dele.
