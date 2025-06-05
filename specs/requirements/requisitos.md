@@ -141,8 +141,20 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 ## Admin do sistema
 
 - **[RF300]** - Como administrador, eu gostaria de gerenciar os perfis de acesso ao sistema, para garantir a segurança e o controle adequado de permissões.
-- **[RF301]** - Como administrador, eu gostaria de visualizar estatísticas gerais do sistema, como número de atendimentos e usuários ativos, para auxiliar na tomada de decisões.
-
+- **[RF301]** - Como administrador, eu gostaria de editar dados cadastrais de qualquer usuário, para corrigir erros ou atualizações necessárias.
+- **[RF302]** - Como um administrador, eu gostaria de verificar o funcionamento geral da aplicação, para que eu possa garantir a estabilidade do sistema.
+- **[RF303]** - Como um administrador, eu gostaria de visualizar logs de atividades de todos os usuários, para que eu possa auditar o uso do sistema e identificar possíveis anomalias.
+- **[RF304]** - Como administrador, eu gostaria de realizar o backup e a restauração de dados do sistema, para que eu possa garantir a recuperação de informações em caso de falhas.
+- **[RF305]** - Como administrador, eu gostaria de gerenciar as configurações de segurança do sistema, como políticas de senha e autenticação de dois fatores, para que eu possa reforçar a proteção dos dados.
+- **[RF306]** - Como administrador, eu gostaria de receber alertas automáticos sobre erros críticos no sistema (falhas de autenticação, tempo de resposta elevado, erros nas requisições), para agir rapidamente.
+- **[RF307]** - Como administrador, eu gostaria de visualizar estatísticas gerais do sistema, como número de atendimentos e usuários ativos, para auxiliar na tomada de decisões.
+- **[RF308]** - Como administrador, eu gostaria de configurar os horários de funcionamento padrão da escola, para que o sistema respeite esses parâmetros ao permitir agendamentos.
+- **[RF309]** - Como administrador, eu gostaria de enviar e gerenciar comunicados gerais ou avisos de manutenção para todos os usuários do sistema, para que eu possa manter o usuário comum informado.
+- **[RF310]** - Como administrador, eu gostaria de auditar acessos a dados sensíveis (como prontuários e laudos), registrando quem acessou, quando e por qual motivo, para fins de conformidade com a LGPD.
+- **[RF311]** - Como administrador, eu gostaria de realizar testes de desempenho periodicamente, para verificar se o sistema está operando dentro dos padrões definidos.
+- **[RF312]** - Como administrador, eu gostaria de receber solicitações dos usuários para correções e melhorias no sistema, para garantir uma melhoria contínua do produto.
+- **[RF313]** - Como administrador, eu gostaria de visualizar solicitações de suporte técnico feitas pelos usuários, para que eu possa monitorar e priorizar correções e melhorias.
+- **[RF314]** - Como adiministrador, eu gostaria de acessar um ambiente de homologação, para validar atualizações e melhorias do sistema juntamente ao cliente.
 
 # Requisitos não-funcionais
 
