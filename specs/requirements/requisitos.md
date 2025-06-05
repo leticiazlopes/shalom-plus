@@ -90,10 +90,21 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 
 - **[RF001]** - Como secretário, eu gostaria de conferir as sessões que já estão agendadas, para que eu possa ter uma visão geral da carga de trabalho dos psicólogos e da agenda da escola.
 - **[RF002]** - Como secretário, eu gostaria de agendar consultas para que eu possa auxiliar algum responsável que venha a ter alguma dificuldade com o agendamento.
-- **[RF003]** - Como secretário, eu gostaria de realizar reagendamentos de consultas por ligação, para que eu possa ajustar a agenda conforme necessário.
+- **[RF003]** - Como secretário, eu gostaria de realizar reagendamentos de consultas solicitadas por ligação, para que eu possa ajustar a agenda conforme necessário.
 - **[RF004]** - Como secretário, eu gostaria de acessar relatórios com o número de atendimentos realizados por período, para apoiar o planejamento e a gestão da equipe.
-- **[RF005]** - Como secretário, eu gostaria de cadastrar novos psicólogos no sistema, para manter os dados atualizados conforme a equipe da escola.
-- **[RF006]** - Como secretário, eu gostaria de consultar uma lista com os alunos que estão sem atendimento recente, para identificar casos que precisam de acompanhamento contínuo.
+- **[RF005]** - Como secretário, eu gostaria de acessar o sistema por meio de login e senha pessoais, para garantir a segurança e a individualização das ações feitas no sistema.
+- **[RF006]** - Como secretário, eu gostaria de redefinir minha senha de acesso caso esqueça, usando um canal como o e-mail, para não perder acesso ao sistema.
+- **[RF007]** - Como secretário, eu gostaria de visualizar listas de atendimento diárias ou semanais por psicólogo, para facilitar a impressão ou o acompanhamento físico, quando necessário.
+- **[RF008]** - Como secretário, eu gostaria de visualizar detalhes de cada agendamento (como horário, nome do aluno, responsável, observações), para confirmar e repassar essas informações se necessário.
+- **[RF009]** - Como secretário, eu gostaria de visualizar a agenda em formato de calendário com cores diferentes para cada psicólogo para facilitar a leitura visual.
+- **[RF010]** - Como secretário, eu gostaria de aplicar filtros por psicólogo, turma ou aluno na agenda, para localizar atendimentos específicos com mais agilidade.
+- **[RF011]** - Como secretário, eu gostaria que a agenda exibisse também os atendimentos emergenciais aprovados, para manter uma visão completa dos compromissos do psicólogo.
+
+
+
+<!-- Achei que não faz sentido com a regra de negócio -->
+<!-- - **[RF005]** - Como secretário, eu gostaria de cadastrar novos psicólogos no sistema, para manter os dados atualizados conforme a equipe da escola.
+- **[RF006]** - Como secretário, eu gostaria de consultar uma lista com os alunos que estão sem atendimento recente, para identificar casos que precisam de acompanhamento contínuo. -->
 
 ## Aluno
 
@@ -106,13 +117,26 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 
 ## Psicólogo
 
-- **[RF200]** - Como psicólogo, eu gostaria de cadastrar meus horários disponíveis no sistema, inserindo que horas inicio e que horas finalizo meus atendimentos na escola, para que os usuários comuns consigam visualizá-los facilmente.
-- **[RF201]** - Como psicólogo, eu gostaria de acessar o histórico completo de atendimentos de cada aluno, para que eu possa acompanhar a evolução dos casos.
-- **[RF202]** - Como psicólogo, eu gostaria de registrar anotações privadas em cada atendimento, para manter observações relevantes e confidenciais sobre o paciente.
-- **[RF203]** - Como psicólogo, eu gostaria de visualizar minha agenda de atendimentos por semana ou por dia, para facilitar minha organização.
-- **[RF204]** - Como psicólogo, eu gostaria de cancelar atendimentos quando necessário, para que o responsável seja automaticamente notificado e a agenda fique atualizada.
-- **[RF205]** - Como psicólogo, eu gostaria de ser notificado com antecedência sobre os atendimentos agendados, para que eu possa me preparar adequadamente antes das sessões.
-- **[RF206]** - Como psicólogo, eu gostaria de exportar ou imprimir um relatório de atendimentos por aluno, para fins de acompanhamento, reuniões pedagógicas ou encaminhamentos externos.
+
+- **[RF200]** - Como psicólogo, eu gostaria de acessar o sistema por meio de login e senha pessoais, para garantir segurança e privacidade dos meus dados e dos atendimentos.  
+- **[RF201]** - Como psicólogo, eu gostaria de redefinir minha senha de acesso por e-mail ou outro canal seguro, caso eu esqueça, para não perder o acesso ao sistema.  
+- **[RF202]** - Como psicólogo, eu gostaria que meu login expirasse automaticamente após um tempo de inatividade, para proteger os dados em dispositivos compartilhados.  
+- **[RF203]** - Como psicólogo, eu gostaria que o sistema exigisse autenticação para acessar áreas sensíveis, como prontuários e anotações privadas, para garantir a confidencialidade das informações.  
+- **[RF204]** - Como psicólogo, eu gostaria de cadastrar meus horários disponíveis no sistema, inserindo que horas inicio e que horas finalizo meus atendimentos na escola, para que os usuários comuns consigam visualizá-los facilmente.  
+- **[RF205]** - Como psicólogo, eu gostaria de acessar o histórico completo de atendimentos de cada aluno, para que eu possa acompanhar a evolução dos casos.  
+- **[RF206]** - Como psicólogo, eu gostaria de registrar anotações privadas em cada atendimento, para manter observações relevantes e confidenciais sobre o paciente.  
+- **[RF207]** - Como psicólogo, eu gostaria de visualizar minha agenda de atendimentos por semana ou por dia, para facilitar minha organização.  
+- **[RF208]** - Como psicólogo, eu gostaria que o cancelamento de agendamentos emitisse notificações, para que o responsável seja automaticamente notificado e a agenda fique atualizada.  
+- **[RF209]** - Como psicólogo, eu gostaria de ser notificado com antecedência sobre os atendimentos agendados, para que eu possa me preparar adequadamente antes das sessões.  
+- **[RF210]** - Como psicólogo, eu gostaria de exportar ou imprimir um relatório de atendimentos por aluno, para fins de acompanhamento, reuniões pedagógicas ou encaminhamentos externos.  
+- **[RF211]** - Como psicólogo, eu gostaria de registrar informações sobre o comparecimento do aluno (presente, ausente, reagendado), para manter o histórico de frequência.  
+- **[RF212]** - Como psicólogo, eu gostaria de ter acesso ao perfil completo do aluno (nome, idade, turma, responsável), para contextualizar os atendimentos.  
+- **[RF213]** - Como psicólogo, eu gostaria de anexar arquivos aos registros dos atendimentos (ex: relatórios, laudos, atividades), para manter toda a documentação centralizada.  
+- **[RF214]** - Como psicólogo, eu gostaria de pesquisar atendimentos por nome do aluno, data, turma ou palavras-chave, para encontrar registros com mais agilidade.  
+- **[RF215]** - Como psicólogo, eu gostaria de receber notificações quando um atendimento emergencial for solicitado por outro usuário, para que eu possa analisar e agir com rapidez.  
+- **[RF216]** - Como psicólogo, eu gostaria que as solicitações de atendimento emergencial permitissem anexos (como relatórios, observações escritas ou fotos autorizadas), para que eu possa ter mais contexto antes de aceitar ou recusar a solicitação.  
+- **[RF217]** - Como psicólogo, eu gostaria que cada solicitação de atendimento emergencial ficasse registrada com data, hora, solicitante e status, para fins de histórico e análise posterior.  
+
 
 ## Admin do sistema
 
@@ -125,14 +149,21 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 Os requisitos não-funcionais são descritos a seguir.
 
 ## Disponibilidade
+[RNF001] - O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.
+[RNF002] - O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho.
+
 
 
 
 ## Privacidade e segurança
+- **[RNF003]** - O sistema deve criptografar todas as comunicações com o servidor por meio de HTTPS, garantindo que dados sensíveis não sejam interceptados durante a transmissão.
+
+- **[RNF004]** - O acesso a informações sensíveis, como prontuários e anotações privadas, deve ser restrito a usuários autenticados com permissão específica, prevenindo acessos indevidos.
 
 
 
 ## Usabilidade
+- **[RNF005]** - O sistema deve apresentar uma interface intuitiva e responsiva, com linguagem acessível e ícones autoexplicativos, para garantir que usuários com baixa familiaridade com tecnologia consigam utilizá-lo com facilidade.
 
 
 ## Suportabilidade
