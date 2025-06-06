@@ -161,15 +161,14 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 Os requisitos não-funcionais são descritos a seguir.
 
 ## Disponibilidade
-[RNF001] - O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.
-[RNF002] - O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho.
+- **[RNF001]** - O sistema deve estar disponível 24 horas por dia, 7 dias por semana, 365 dias por ano.
+- **[RNF002]** - O sistema deve ser desenvolvido de forma que possa ser escalável, ou seja, deve ser possível aumentar a capacidade de armazenamento de dados e de processamento de requisições sem que haja perda de desempenho.
 
 
 
 
 ## Privacidade e segurança
 - **[RNF003]** - O sistema deve criptografar todas as comunicações com o servidor por meio de HTTPS, garantindo que dados sensíveis não sejam interceptados durante a transmissão.
-
 - **[RNF004]** - O acesso a informações sensíveis, como prontuários e anotações privadas, deve ser restrito a usuários autenticados com permissão específica, prevenindo acessos indevidos.
 
 
