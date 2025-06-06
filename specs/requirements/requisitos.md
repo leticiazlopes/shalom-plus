@@ -176,13 +176,16 @@ Os requisitos não-funcionais são descritos a seguir.
 
 ## Usabilidade
 - **[RNF005]** - O sistema deve apresentar uma interface intuitiva e responsiva, com linguagem acessível e ícones autoexplicativos, para garantir que usuários com baixa familiaridade com tecnologia consigam utilizá-lo com facilidade.
+- **[RNF006]** - A navegação no sistema deve ser consistente e previsível em todas as telas, com elementos de interface como menus, botões e breadcrumbs, sempre localizados em posições de fácil visualização, para facilitar o aprendizado e a familiarização.
 
 
 ## Suportabilidade
-
+- **[RNF007]** -  sistema deve ser desenvolvido de forma que possa ser executado nos dois principais navegadores da web: Google Chrome e Mozilla Firefox através de um computador com sistema operacional Windows, Linux ou Mac OS, bem como tablets e smartphones com sistema operacional Android ou iOS.
+- **[RNF008]** - O sistema deve permitir a aplicação de atualizações de segurança e correções de bugs sem interrupção total do serviço.
 
 ## Interoperabilidade
-
+- **[RNF009]** - O sistema deve ser capaz de exportar os dados sobre os horários e perfis dos psicólogos em PDF para impressão e exposição na escola.
+- **[RNF010]** - O sistema deve utilizar o protocolo HTTPS em todas as integrações com serviços externos, garantindo comunicação segura.
 
 ## Manutenibilidade
 
