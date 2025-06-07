@@ -192,7 +192,7 @@ A comunicação entre os dispositivos e o sistema ocorre por meio de conexões d
 
 ## Custo e venda
 
-A análise de custo do sistema Shalom+ está voltada principalmente para os médicos empresários, que são os clientes e apoiadores financeiros da escola social.
+A análise de custo do sistema Shalom+ está voltada principalmente para os médicos e empresários, que são os clientes e apoiadores financeiros da escola social. O orçamento é previamente definido por esses financiadores, e a equipe de desenvolvimento deve respeitar esse limite durante todas as fases do projeto. 
 
 ## Licenciamento e instalação
 
@@ -221,19 +221,19 @@ Esta seção define e descreve as características do Shalom+. Trata-se dos requ
 
 ## Restrições
 
-1. **Restrições de orçamento:** O projeto não deve exceder o orçamento previamente combinado com os clientes.
+1. **Restrições de orçamento:** O projeto não deve exceder o orçamento previamente combinado e definido pelos médicos e empresários apoiadores da Escola Social Shalom+
 
-2. **Restrição de tempo:** O sistema deve ser desenvolvido e implementado dentro de um prazo específico e não pode ser estendido, conforme negociado com o cliente.
+2. **Restrição de tempo:** O sistema deve ser desenvolvido e implementado dentro de um prazo específico e não pode ser estendido, conforme negociado com o cliente, a fim de evitar atrasos no período de agendamentos e garantir o bom funcionamento da escola.
  
-3. **Restrição de hardware:** O sistema deve funcionar em hardwares modernos e comuns, sem a necessidade de requisitos técnicos específicos.
+3. **Restrição de hardware:** O sistema deve funcionar em hardwares modernos e comuns, sendo compatível com smartphones Android e IOS, que serão utilizados pelos alunos e responáveis. Além disso, deve funcionar em computadores com Windows que já estão instalados na sede da escola, sem a necessidade de requisitos técnicos específicos.
  
 4. **Restrição de segurança:** Todos os dados dos usuários devem ser tratados conforme a Lei Geral de Proteção de Dados (LGPD). Além disso, determinadas informações sensíveis dos alunos, a exemplo do laudo, devem ser acessíveis apenas a psicólogos com permissões específicas.
  
 5. **Restrição de usabilidade:** O sistema deve ser intuitivo, acessível e adaptado a usuários que não sabem ler, ou tenham alguma dificuldade. Para isso, serão utilizados ícones claros, coloridos e de fácil associação. Além disso, o sistema também deve evitar o deslogamento automático, a fim de evitar redefinições de acesso.
  
-6. **Restrição de interoperabilidade:** O sistema deve ser compatível com outros softwares e plataformas.
+6. **Restrição de interoperabilidade:** O sistema deve ser compatível com outros softwares, plataformas e ferramentas utlizadas na escola, como editores de texto e sistemas de armazenamento em nuvem. 
  
-7. **Restrições de desempenho:** O sistema precisa garantir bom desempenho, dessa forma, deve apresentar boa velocidade de resposta e capacidade de escalabilidade para suportar o aumento de usuários.
+7. **Restrições de desempenho:** O sistema precisa garantir bom desempenho, dessa forma, deve apresentar boa velocidade de resposta e capacidade de escalabilidade para suportar o aumento de usuários e acessos simultâneos durante períodos de pico, como o início do semestre.
 
 8. **Restrições geográficas:** O sistema será utilizado exclusivamente para atendimentos presenciais realizados na sede da escola social Shalom+. Portanto, não há necessidade de suporte a múltiplos fusos horários ou idiomas estrangeiros. O sistema deve funcionar em território nacional, no idioma português.
 
