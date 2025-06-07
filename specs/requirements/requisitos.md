@@ -99,12 +99,10 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 - **[RF009]** - Como secretário, eu gostaria de visualizar a agenda em formato de calendário com cores diferentes para cada psicólogo para facilitar a leitura visual.
 - **[RF010]** - Como secretário, eu gostaria de aplicar filtros por psicólogo, turma ou aluno na agenda, para localizar atendimentos específicos com mais agilidade.
 - **[RF011]** - Como secretário, eu gostaria que a agenda exibisse também os atendimentos emergenciais aprovados, para manter uma visão completa dos compromissos do psicólogo.
+- **[RF012]** - Como secretário, eu gostaria de receber notificações sobre cancelamentos ou alterações feitas por responsáveis ou psicólogos, para manter a agenda sempre atualizada.
+- **[RF013]** - Como secretário, eu gostaria que o sistema permitisse buscas rápidas por nome do responsável ou aluno, para encontrar informações sem perder tempo.
+- **[RF014]** - Como secretário, eu gostaria de enviar comunicados e avisos importantes para os responsáveis, para manter todos informados sobre mudanças e eventos.
 
-
-
-<!-- Achei que não faz sentido com a regra de negócio -->
-<!-- - **[RF005]** - Como secretário, eu gostaria de cadastrar novos psicólogos no sistema, para manter os dados atualizados conforme a equipe da escola.
-- **[RF006]** - Como secretário, eu gostaria de consultar uma lista com os alunos que estão sem atendimento recente, para identificar casos que precisam de acompanhamento contínuo. -->
 
 ## Aluno
 
@@ -113,6 +111,16 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 - **[RF102]** - Como responsável, eu gostaria de acessar um histórico resumido dos atendimentos realizados com meu filho, contendo datas e nomes dos profissionais.
 - **[RF103]** - Como responsável, eu gostaria de editar ou cancelar agendamentos realizados, para ajustar a agenda da criança conforme imprevistos.
 - **[RF104]** - Como responsável, eu gostaria de visualizar o perfil básico dos psicólogos disponíveis, para que eu possa escolher o profissional mais adequado.
+- **[RF105]** - Como responsável, eu gostaria de atualizar meus dados de contato no sistema, para garantir que as informações estejam sempre corretas.
+- **[RF106]** - Como responsável, eu gostaria de receber notificações sobre alterações nos agendamentos, para me manter informado.
+- **[RF107]** - Como responsável, eu gostaria de receber avisos em caso de ausência do psicólogo, para me organizar com antecedência.
+- **[RF108]** - Como responsável, eu gostaria de receber um resumo mensal das consultas realizadas, para acompanhar com clareza o progresso do acompanhamento psicológico.
+- **[RF109]** - Como responsável, eu gostaria de poder recuperar a minha senha facilmente, para não perder o acesso ao sistema.
+- **[RF110]** - Como responsável, eu gostaria de registrar informações importantes sobre o aluno (alergias, necessidades especiais, rotinas), para auxiliar os profissionais no cuidado.
+- **[RF111]** - Como responsável, eu gostaria de acessar orientações passadas pelo psicólogo após cada sessão, para acompanhar e aplicar recomendações em casa.
+- **[RF112]** - Como responsável, eu gostaria de visualizar o status dos atendimentos solicitados (pendente, confirmado, concluído, cancelado), para acompanhamento claro.
+- **[RF113]** - Como responsável, eu gostaria de ter acesso a um canal de suporte no sistema, para tirar dúvidas sobre o uso da plataforma ou sobre o atendimento.
+- **[RF114]** - Como responsável, eu gostaria que o sistema tivesse ícones ilustrativos e coloridos nos botões principais, para facilitar a navegação mesmo sem leitura.
 
 
 ## Psicólogo
@@ -166,7 +174,6 @@ Os requisitos não-funcionais são descritos a seguir.
 
 
 
-
 ## Privacidade e segurança
 - **[RNF003]** - O sistema deve criptografar todas as comunicações com o servidor por meio de HTTPS, garantindo que dados sensíveis não sejam interceptados durante a transmissão.
 - **[RNF004]** - O acesso a informações sensíveis, como prontuários e anotações privadas, deve ser restrito a usuários autenticados com permissão específica, prevenindo acessos indevidos.
@@ -183,14 +190,20 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF007]** -  sistema deve ser desenvolvido de forma que possa ser executado nos dois principais navegadores da web: Google Chrome e Mozilla Firefox através de um computador com sistema operacional Windows, Linux ou Mac OS, bem como tablets e smartphones com sistema operacional Android ou iOS.
 - **[RNF008]** - O sistema deve permitir a aplicação de atualizações de segurança e correções de bugs sem interrupção total do serviço.
 
+
 ## Interoperabilidade
 - **[RNF009]** - O sistema deve ser capaz de exportar os dados sobre os horários e perfis dos psicólogos em PDF para impressão e exposição na escola.
 - **[RNF010]** - O sistema deve utilizar o protocolo HTTPS em todas as integrações com serviços externos, garantindo comunicação segura.
 
+
 ## Manutenibilidade
+- **[RNF011]** - O sistema deve ser desenvolvido com um código-fonte bem documentado, facilitando a manutenção, correções e adição de novas funcionalidades
+- **[RNF012]** - O sistema deve permitir a aplicação de atualizações e correções sem necessidade de interrupção total do serviço, minimizando o impacto para os usuários
 
 
 ## Desempenho
+- **[RNF013]** - O sistema deve ser capaz de suportar múltiplos usuários simultâneos sem degradação perceptível no desempenho.
+- **[RNF014]** - O tempo de carregamento da interface inicial deve ser inferior a 3 segundos em conexões padrão(4G ou Wifi), garantindo uma experiência de uso fluida e responsiva.
 
 
 ## Implementação
