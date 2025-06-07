@@ -176,6 +176,7 @@ Os requisitos não-funcionais são descritos a seguir.
 ## Usabilidade
 - **[RNF005]** - O sistema deve apresentar uma interface intuitiva e responsiva, com linguagem acessível e ícones autoexplicativos, para garantir que usuários com baixa familiaridade com tecnologia consigam utilizá-lo com facilidade.
 - **[RNF006]** - A navegação no sistema deve ser consistente e previsível em todas as telas, com elementos de interface como menus, botões e breadcrumbs, sempre localizados em posições de fácil visualização, para facilitar o aprendizado e a familiarização.
+- **[RNF007]** - O sistema deve disponibilizar feedbacks imediatos (ex: mensagens de confirmação ou erro) após cada ação do usuário, para garantir que ele entenda o que ocorreu e saiba qual será o próximo passo.
 
 
 ## Suportabilidade
@@ -193,11 +194,12 @@ Os requisitos não-funcionais são descritos a seguir.
 
 
 ## Implementação
-
+- **[RNF015]** - O sistema deve ser desenvolvido para ser acessado por meio da internet, utilizando infraestrutura em nuvem pública para hospedagem e armazenamento de dados.
+- **[RNF016]** - O sistema deve permitir comunicação com o servidor via protocolo HTTP, garantindo a troca segura de informações entre os dispositivos dos usuários e o servidor.
 
 ## Implantação
-
-
+- **[RNF017]** - O sistema deve ser configurado pela equipe técnica da empresa desenvolvedora, sendo disponibilizado em ambiente online com login e senha para cada cliente.
+- **[RNF018]** - O sistema deve permitir funcionamento em navegadores web modernos e dispositivos móveis, sem necessidade de instalação local nos dispositivos dos usuários.
 
 # Matriz de rastreabilidade
 
