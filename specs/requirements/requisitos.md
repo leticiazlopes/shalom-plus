@@ -151,7 +151,7 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 ## Admin do sistema
 
 - **[RF300]** - Como administrador, eu gostaria de gerenciar os perfis de acesso ao sistema, para garantir a segurança e o controle adequado de permissões.
-- **[RF301]** - Como administrador, eu gostaria de editar dados cadastrais de qualquer usuário, para corrigir erros ou atualizações necessárias.
+- **[RF301]** - Como administrador, eu gostaria de editar dados cadastrais de qualquer usuário, podendo filtrar por nome, email, perfil e status, para corrigir erros, fazer atualizações necessárias ou desativar usuários.
 - **[RF302]** - Como um administrador, eu gostaria de verificar o funcionamento geral da aplicação, para que eu possa garantir a estabilidade do sistema.
 - **[RF303]** - Como um administrador, eu gostaria de visualizar logs de atividades de todos os usuários, para que eu possa auditar o uso do sistema e identificar possíveis anomalias.
 - **[RF304]** - Como administrador, eu gostaria de realizar o backup e a restauração de dados do sistema, para que eu possa garantir a recuperação de informações em caso de falhas.
@@ -163,7 +163,7 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 - **[RF310]** - Como administrador, eu gostaria de auditar acessos a dados sensíveis (como prontuários e laudos), registrando quem acessou, quando e por qual motivo, para fins de conformidade com a LGPD.
 - **[RF311]** - Como administrador, eu gostaria de realizar testes de desempenho periodicamente, para verificar se o sistema está operando dentro dos padrões definidos.
 - **[RF312]** - Como administrador, eu gostaria de receber solicitações dos usuários para correções e melhorias no sistema, para garantir uma melhoria contínua do produto.
-- **[RF313]** - Como administrador, eu gostaria de visualizar solicitações de suporte técnico feitas pelos usuários, para que eu possa monitorar e priorizar correções e melhorias.
+- **[RF313]** - Como administrador, eu gostaria de visualizar solicitações de suporte técnico feitas pelos usuários, podendo filtrar por assunto, usuário, tipo do chamado e estatus,  para que eu possa monitorar e priorizar correções e melhorias.
 - **[RF314]** - Como adiministrador, eu gostaria de acessar um ambiente de homologação, para validar atualizações e melhorias do sistema juntamente ao cliente.
 
 # Requisitos não-funcionais
@@ -217,27 +217,4 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF019]** - O sistema deve ser configurado pela equipe técnica da empresa desenvolvedora, sendo disponibilizado em ambiente online com login e senha para cada cliente.
 - **[RNF020]** - O sistema deve permitir funcionamento em navegadores web modernos e dispositivos móveis, sem necessidade de instalação local nos dispositivos dos usuários.
 
-# Matriz de rastreabilidade
-
-A matriz de rastreabilidade é apresentada a seguir.
-
-## Rastreabilidade entre NFs e RNFs
-
-| RF / RNF | RF001 | RF002 | RF003 | RF004 | RF005 | RF006 | RF007 | RF008 | RF009 | RF010 | RF011 | RF012 | RF013 | RF014 | RF015 | RF016 | RF017 | RF018 | RF019 | RF020 | RF021 | RF022 |
-| :------: | :---: | :---: | :---: | :---: | :---: | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-|  RNF001  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF002  |       |       |   X   |   X   |   X   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF003  |       |       |   X   |   X   |   X   |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF004  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF005  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF006  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF007  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF008  |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     |       |       |       |       |       |       |       |
-|  RNF009  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF010  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF011  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF012  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF013  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |
-|  RNF014  |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       |       | X     | X     | X     | X     | X     |
-
-Criado em Abril de 2023 por _Maxwell Anderson_
+Criado em Junho de 2025 por _Laila de Aquino, Letícia Lopes, Luan Pimenta e Suetone Carneiro_
