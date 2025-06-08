@@ -102,6 +102,8 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 - **[RF012]** - Como secretário, eu gostaria de receber notificações sobre cancelamentos ou alterações feitas por responsáveis ou psicólogos, para manter a agenda sempre atualizada.
 - **[RF013]** - Como secretário, eu gostaria que o sistema permitisse buscas rápidas por nome do responsável ou aluno, para encontrar informações sem perder tempo.
 - **[RF014]** - Como secretário, eu gostaria de enviar comunicados e avisos importantes para os responsáveis, para manter todos informados sobre mudanças e eventos.
+- **[RF015]** - Como secretário, eu gostaria de atualizar os dados de contato dos responsáveis, para manter o cadastro sempre completo e facilitar a comunicação com as famílias.
+
 
 
 ## Aluno
@@ -184,35 +186,36 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF005]** - O sistema deve apresentar uma interface intuitiva e responsiva, com linguagem acessível e ícones autoexplicativos, para garantir que usuários com baixa familiaridade com tecnologia consigam utilizá-lo com facilidade.
 - **[RNF006]** - A navegação no sistema deve ser consistente e previsível em todas as telas, com elementos de interface como menus, botões e breadcrumbs, sempre localizados em posições de fácil visualização, para facilitar o aprendizado e a familiarização.
 - **[RNF007]** - O sistema deve disponibilizar feedbacks imediatos (ex: mensagens de confirmação ou erro) após cada ação do usuário, para garantir que ele entenda o que ocorreu e saiba qual será o próximo passo.
+- **[RNF008]** - O sistema deve ser responsivo, adaptando-se a diferentes tamanhos de tela, para garantir ao usuário uma boa experiência de uso em qualquer dispositivo.
 
 
 ## Suportabilidade
-- **[RNF007]** -  sistema deve ser desenvolvido de forma que possa ser executado nos dois principais navegadores da web: Google Chrome e Mozilla Firefox através de um computador com sistema operacional Windows, Linux ou Mac OS, bem como tablets e smartphones com sistema operacional Android ou iOS.
-- **[RNF008]** - O sistema deve permitir a aplicação de atualizações de segurança e correções de bugs sem interrupção total do serviço.
+- **[RNF009]** -  sistema deve ser desenvolvido de forma que possa ser executado nos dois principais navegadores da web: Google Chrome e Mozilla Firefox através de um computador com sistema operacional Windows, Linux ou Mac OS, bem como tablets e smartphones com sistema operacional Android ou iOS.
+- **[RNF010]** - O sistema deve permitir a aplicação de atualizações de segurança e correções de bugs sem interrupção total do serviço.
 
 
 ## Interoperabilidade
-- **[RNF009]** - O sistema deve ser capaz de exportar os dados sobre os horários e perfis dos psicólogos em PDF para impressão e exposição na escola.
-- **[RNF010]** - O sistema deve utilizar o protocolo HTTPS em todas as integrações com serviços externos, garantindo comunicação segura.
+- **[RNF011]** - O sistema deve ser capaz de exportar os dados sobre os horários e perfis dos psicólogos em PDF para impressão e exposição na escola.
+- **[RNF012]** - O sistema deve utilizar o protocolo HTTPS em todas as integrações com serviços externos, garantindo comunicação segura.
 
 
 ## Manutenibilidade
-- **[RNF011]** - O sistema deve ser desenvolvido com um código-fonte bem documentado, facilitando a manutenção, correções e adição de novas funcionalidades
-- **[RNF012]** - O sistema deve permitir a aplicação de atualizações e correções sem necessidade de interrupção total do serviço, minimizando o impacto para os usuários
+- **[RNF013]** - O sistema deve ser desenvolvido com um código-fonte bem documentado, facilitando a manutenção, correções e adição de novas funcionalidades
+- **[RNF014]** - O sistema deve permitir a aplicação de atualizações e correções sem necessidade de interrupção total do serviço, minimizando o impacto para os usuários
 
 
 ## Desempenho
-- **[RNF013]** - O sistema deve ser capaz de suportar múltiplos usuários simultâneos sem degradação perceptível no desempenho.
-- **[RNF014]** - O tempo de carregamento da interface inicial deve ser inferior a 3 segundos em conexões padrão(4G ou Wifi), garantindo uma experiência de uso fluida e responsiva.
+- **[RNF015]** - O sistema deve ser capaz de suportar múltiplos usuários simultâneos sem degradação perceptível no desempenho.
+- **[RNF016]** - O tempo de carregamento da interface inicial deve ser inferior a 3 segundos em conexões padrão(4G ou Wifi), garantindo uma experiência de uso fluida e responsiva.
 
 
 ## Implementação
-- **[RNF015]** - O sistema deve ser desenvolvido para ser acessado por meio da internet, utilizando infraestrutura em nuvem pública para hospedagem e armazenamento de dados.
-- **[RNF016]** - O sistema deve permitir comunicação com o servidor via protocolo HTTP, garantindo a troca segura de informações entre os dispositivos dos usuários e o servidor.
+- **[RNF017]** - O sistema deve ser desenvolvido para ser acessado por meio da internet, utilizando infraestrutura em nuvem pública para hospedagem e armazenamento de dados.
+- **[RNF018]** - O sistema deve permitir comunicação com o servidor via protocolo HTTP, garantindo a troca segura de informações entre os dispositivos dos usuários e o servidor.
 
 ## Implantação
-- **[RNF017]** - O sistema deve ser configurado pela equipe técnica da empresa desenvolvedora, sendo disponibilizado em ambiente online com login e senha para cada cliente.
-- **[RNF018]** - O sistema deve permitir funcionamento em navegadores web modernos e dispositivos móveis, sem necessidade de instalação local nos dispositivos dos usuários.
+- **[RNF019]** - O sistema deve ser configurado pela equipe técnica da empresa desenvolvedora, sendo disponibilizado em ambiente online com login e senha para cada cliente.
+- **[RNF020]** - O sistema deve permitir funcionamento em navegadores web modernos e dispositivos móveis, sem necessidade de instalação local nos dispositivos dos usuários.
 
 # Matriz de rastreabilidade
 
