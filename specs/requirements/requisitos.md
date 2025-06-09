@@ -203,7 +203,6 @@ Os requisitos não-funcionais são descritos a seguir.
 - **[RNF013]** - O sistema deve ser desenvolvido com um código-fonte bem documentado, facilitando a manutenção, correções e adição de novas funcionalidades
 - **[RNF014]** - O sistema deve permitir a aplicação de atualizações e correções sem necessidade de interrupção total do serviço, minimizando o impacto para os usuários
 
-
 ## Desempenho
 - **[RNF015]** - O sistema deve ser capaz de suportar múltiplos usuários simultâneos sem degradação perceptível no desempenho.
 - **[RNF016]** - O tempo de carregamento da interface inicial deve ser inferior a 3 segundos em conexões padrão(4G ou Wifi), garantindo uma experiência de uso fluida e responsiva.
