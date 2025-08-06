@@ -84,9 +84,9 @@ Os seguintes usuários foram identificados para o sistema:
 
 # Requisitos funcionais
 
-Os requisitos funcionais são descritos a seguir, organizados por perfil de usuário:
+Os requisitos funcionais são descritos a seguir, organizados em módulos:
 
-## Secretário
+## Módulo de atendimento escolar
 
 - **[RF001]** - Como secretário, eu gostaria de conferir as sessões que já estão agendadas, para que eu possa ter uma visão geral da carga de trabalho dos psicólogos e da agenda da escola.
 - **[RF002]** - Como secretário, eu gostaria de agendar consultas para que eu possa auxiliar algum responsável que venha a ter alguma dificuldade com o agendamento.
@@ -106,7 +106,7 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 
 
 
-## Aluno
+## Módulo do paciente
 
 - **[RF100]** - Como responsável de um aluno, eu gostaria de agendar consultas psicológicas, para que eu possa garantir o atendimento dele.
 - **[RF101]** - Como responsável, eu gostaria de receber lembretes automáticos das consultas agendadas, para que eu não esqueça dos compromissos.
@@ -125,7 +125,7 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 - **[RF114]** - Como responsável, eu gostaria que o sistema tivesse ícones ilustrativos e coloridos nos botões principais, para facilitar a navegação mesmo sem leitura.
 
 
-## Psicólogo
+## Módulo clínico
 
 
 - **[RF200]** - Como psicólogo, eu gostaria de acessar o sistema por meio de login e senha pessoais, para garantir segurança e privacidade dos meus dados e dos atendimentos.  
@@ -148,7 +148,7 @@ Os requisitos funcionais são descritos a seguir, organizados por perfil de usu�
 - **[RF217]** - Como psicólogo, eu gostaria que cada solicitação de atendimento emergencial ficasse registrada com data, hora, solicitante e status, para fins de histórico e análise posterior.  
 
 
-## Admin do sistema
+## Módulo de administração do sistema
 
 - **[RF300]** - Como administrador, eu gostaria de gerenciar os perfis de acesso ao sistema, para garantir a segurança e o controle adequado de permissões.
 - **[RF301]** - Como administrador, eu gostaria de editar dados cadastrais de qualquer usuário, podendo filtrar por nome, email, perfil e status, para corrigir erros, fazer atualizações necessárias ou desativar usuários.
